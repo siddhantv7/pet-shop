@@ -23,7 +23,7 @@
             const petBreed = urlParams.get('petBreed');
             const petAge = urlParams.get('petAge');
             const petLocation = urlParams.get('petLocation');
-
+            const petImageSrc = urlParams.get('petImageSrc'); // Retrieve pet image URL
 
             // Create elements to display pet information
             const petInfoContainer = document.getElementById('petInfo');
@@ -31,14 +31,19 @@
             const petBreedElement = document.createElement('p');
             const petAgeElement = document.createElement('p');
             const petLocationElement = document.createElement('p');
+            const petImageElement = document.createElement('img'); // Create img element for pet image
 
             // Apply Bootstrap classes to elements
             petNameElement.setAttribute('class', 'container text-center lead'); // Bootstrap display-4 class for h2
-            petBreedElement.setAttribute('class', 'container text-center  lead'); // Bootstrap lead class for p
-            petAgeElement.setAttribute('class', ' container text-center lead'); // Bootstrap lead class for p
+            petBreedElement.setAttribute('class', 'container text-center lead'); // Bootstrap lead class for p
+            petAgeElement.setAttribute('class', 'container text-center lead'); // Bootstrap lead class for p
             petLocationElement.setAttribute('class', 'container text-center lead'); // Bootstrap lead class for p
 
-
+            // Set attributes for the image element
+            petImageElement.setAttribute('class', 'img-fluid rounded mx-auto d-block'); // Bootstrap classes for image styling
+            petImageElement.setAttribute('src', petImageSrc); // Set the image src attribute
+            petImageElement.setAttribute('width', '300'); // Set the width of the image
+            petImageElement.setAttribute('height', '200'); // Set the height of the image
 
             // Set text content for each element
             petNameElement.textContent = "Pet Name: " + petName;
@@ -51,6 +56,7 @@
             petInfoContainer.appendChild(petBreedElement);
             petInfoContainer.appendChild(petAgeElement);
             petInfoContainer.appendChild(petLocationElement);
+            petInfoContainer.appendChild(petImageElement); // Append the image element
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
