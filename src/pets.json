@@ -1,35 +1,37 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
-    "picture": "images/img1.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
+    "name": "Scotty",
+    "picture": "images/dogImg1.jpg",
+    "age": 4,
+    "breed": "American Bulldog",
     "quantity": 5,
-    "location": "Lisco, Alabama"
+    "location": "America"
   },
   {
-    "id": 1,
-    "name": "Gina",
-    "picture": "images/img2.jpeg",
+     "id": 1,
+    "name": "Bully",
+    "picture": "images/img3.jpeg",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "breed": "American Eskimo",
     "quantity": 5,
-    "location": "Tooleville, West Virginia"
+    "location": "Germany"
+
   },
   {
     "id": 2,
-    "name": "Collins",
-    "picture": "images/img3.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
+    "name": "Tommy",
+    "picture": "images/img4.jpeg",
+    "age": 3,
+    "breed": "Kangal",
     "quantity": 5,
-    "location": "Freeburn, Idaho"
+    "location": "Turkey"
+
   },
   {
     "id": 3,
     "name": "Melissa",
-    "picture": "images/img4.jpeg",
+    "picture": "images/img2.jpeg",
     "age": 2,
     "breed": "Boxer",
     "quantity": 5,
@@ -37,110 +39,120 @@
   },
   {
     "id": 4,
-    "name": "Jeanine",
-    "picture": "images/img1.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "quantity": 5,
-    "location": "Gerber, South Dakota"
+    "name": "Simmy",
+    "picture": "images/img3.jpeg",
+    "age": 1,
+    "breed": "Australian Mist",
+    "quantity": 20,
+    "location": "Australia"
+
   },
   {
     "id": 5,
-    "name": "Elvia",
-    "picture": "images/img3.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
+    "name": "Shelly",
+    "picture": "images/catImg1.jpg",
+    "age": 2,
+    "breed": "Bengal",
     "quantity": 5,
-    "location": "Innsbrook, Illinois"
+    "location":"Bengals"
+
   },
   {
     "id": 6,
-    "name": "Latisha",
-    "picture": "images/img1.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
+    "name": "Pinky",
+    "picture": "images/catImg2.jpg",
+    "age": 2,
+    "breed": "Exotic Shorthead",
     "quantity": 5,
-    "location": "Soudan, Louisiana"
+    "location": "Himalayas"
+
   },
   {
     "id": 7,
-    "name": "Coleman",
-    "picture": "images/img2.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "quantity": 5,
-    "location": "Jacksonwald, Palau"
+    "name": "Chinky",
+    "picture": "images/imaCat3.jpg",
+    "age": 2,
+    "breed": "Devon Rex",
+    "quantity": 9,
+    "location": "vasai"
+
   },
   {
     "id": 8,
-    "name": "Nichole",
-    "picture": "images/img3.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "quantity": 5,
-    "location": "Honolulu, Hawaii"
+    "name": "Humma",
+    "picture": "images/ele1.jpg",
+    "age": 6,
+    "breed": "African Forest Elephant",
+    "quantity": 10,
+    "location": "Africa"
+
   },
   {
     "id": 9,
-    "name": "Fran",
-    "picture": "images/img1.jpeg",
-    "age": 3,
-    "breed": "Boxer",
+    "name": "Kuppa",
+    "picture": "images/ele2.jpg",
+    "age": 2,
+    "breed": "Asian Elephant",
     "quantity": 5,
-    "location": "Matheny, Utah"
+    "location": "Southeast Asia"
+
   },
   {
     "id": 10,
-    "name": "Leonor",
-    "picture": "images/img4.jpeg",
+    "name": "Shaam",
+    "picture": "images/ele1.jpg",
     "age": 2,
-    "breed": "Boxer",
+    "breed": "African bush elephant",
     "quantity": 5,
-    "location": "Tyhee, Indiana"
+    "location": "south Saharan africa"
+
   },
   {
     "id": 11,
-    "name": "Dean",
-    "picture": "images/img1.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
+    "name": "Chumpu",
+    "picture": "images/mon.jpg",
+    "age": 4,
+    "breed": "Agile Mangabay",
     "quantity": 5,
-    "location": "Windsor, Montana"
+    "location": "Central Africa"
+
   },
   {
     "id": 12,
-    "name": "Stevenson",
-    "picture": "images/img3.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "quantity": 5,
-    "location": "Kingstowne, Nevada"
+    "name": "Trammy",
+    "picture": "images/mon1.jpg",
+    "age": 5,
+    "breed": "Asian",
+    "quantity": 7,
+    "location": "East Asia"
   },
   {
     "id": 13,
-    "name": "Kristina",
-    "picture": "images/img1.jpeg",
-    "age": 4,
-    "breed": "Golden Retriever",
-    "quantity": 5,
-    "location": "Sultana, Massachusetts"
+    "name": "Jamboora",
+    "picture": "images/mon3.jpg",
+    "age": 8,
+    "breed": "South Africa",
+    "quantity": 15,
+    "location": "South East Africa"
   },
   {
     "id": 14,
-    "name": "Ethel",
-    "picture": "images/img2.jpeg",
+    "name": "Sammy",
+    "picture": "images/mon1.jpg",
     "age": 2,
-    "breed": "Golden Retriever",
-    "quantity": 5,
-    "location": "Broadlands, Oregon"
+    "breed": "Jamaican",
+    "quantity": 6,
+    "location": "East Jamaica"
+
   },
   {
     "id": 15,
-    "name": "Terry",
-    "picture": "images/img4.jpeg",
+    "name": "Shelly",
+    "picture": "images/img2.jpeg",
     "age": 2,
-    "breed": "Golden Retriever",
-    "quantity": 3,
-    "location": "Dawn, Wisconsin"
+    "breed": "Australian Baboon",
+    "quantity": 12,
+    "location": "Australia"
+
   }
 ]
